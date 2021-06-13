@@ -1,5 +1,11 @@
 # esp-idf-vscode-procedure
-This repository is a template for creating a new project on ESP-IDF using VSCode. 
+This repository is a template for creating a new project on ESP-IDF using VSCode. After downloading it, follow these steps
+1. Unzip into C:\esp
+2. Rename the unzipped folder
+3. In Makefile, replace "esp-idf-vscode-procedure" with the new project name
+4. In the main folder, rename "main_program" (.c file)
+5. In CMakeLists.txt, replace "main_program" with the new program name
+
 Sample: https://github.com/espressif/esp-idf/tree/master/examples/get-started/sample_project
 ## Procedure for Installation and Setup
 ### Step 1: Install ESP-IDF
