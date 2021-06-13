@@ -1,5 +1,6 @@
 # esp-idf-vscode-procedure
 Procedure and resources for getting started with ESP-IDF on VSCode.
+Sample: https://github.com/espressif/esp-idf/tree/master/examples/get-started/sample_project
 ## Procedure
 ### Step 1: Install ESP-IDF
 https://www.youtube.com/watch?v=K58Y2dFsQ2A -> Follow the same procedure
