@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=aQi8qiW9fmg&list=PLfcVdODhZSagC8s_13x22eAf0X9TP4
 ### Step 3: Check versions of OpenOCD and Python
 https://www.youtube.com/watch?v=KRyvly_SYS8 -> 05:33 to 06:12 
 PS: I did not do all the extra stuff he was doing for python packages. Also, I had the latest version of python installed and not 2 versions like he had later in the video. 
-### Step 4: Open example project and resolve errors
+### Step 4: Open example project and resolve errors (Do this IFF there are errors)
 https://www.youtube.com/watch?v=KRyvly_SYS8 -> 10:18 to 14:34
 
 Errors are:
