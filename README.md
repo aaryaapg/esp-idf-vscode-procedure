@@ -37,3 +37,18 @@ _Compiler path_
 [https://github.com/espressif/vscode-esp-idf-extension/issues/27]
 
 _IntelliSense mode_ : Choose `gcc-x64(legacy)`
+
+## On ESP-IDF 4.2 CMD (Example) 
+`C:\esp>cd C:\esp\hello_world`
+
+`C:\esp\hello_world>idf.py set-target esp32`
+
+`C:\esp\hello_world>idf.py menuconfig`
+
+`C:\esp\hello_world>idf.py build`
+
+`C:\esp\hello_world>idf.py -p COM3 flash`
+
+`C:\esp\hello_world>idf.py monitor`
+
+
