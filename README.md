@@ -5,8 +5,22 @@ This repository is a template for creating a new project on ESP-IDF using VSCode
 3. In Makefile, replace "esp-idf-vscode-procedure" with the new project name
 4. In the main folder, rename "main_program" (.c file)
 5. In CMakeLists.txt, replace "main_program" with the new program name
+6. Start editing!
 
 Sample: https://github.com/espressif/esp-idf/tree/master/examples/get-started/sample_project
+## How to build and flash ESP32 on ESP-IDF 4.2 CMD (Example) 
+`C:\esp>cd C:\esp\hello_world`
+
+`C:\esp\hello_world>idf.py set-target esp32`
+
+`C:\esp\hello_world>idf.py menuconfig`
+
+`C:\esp\hello_world>idf.py build`
+
+`C:\esp\hello_world>idf.py -p COM3 flash`
+
+`C:\esp\hello_world>idf.py monitor`
+
 ## Procedure for Installation and Setup
 ### Step 1: Install ESP-IDF
 https://www.youtube.com/watch?v=K58Y2dFsQ2A -> Follow the same procedure
@@ -46,17 +60,6 @@ _Compiler path_
 
 _IntelliSense mode_ : Choose `gcc-x64(legacy)`
 
-## On ESP-IDF 4.2 CMD (Example) 
-`C:\esp>cd C:\esp\hello_world`
 
-`C:\esp\hello_world>idf.py set-target esp32`
-
-`C:\esp\hello_world>idf.py menuconfig`
-
-`C:\esp\hello_world>idf.py build`
-
-`C:\esp\hello_world>idf.py -p COM3 flash`
-
-`C:\esp\hello_world>idf.py monitor`
 
 
