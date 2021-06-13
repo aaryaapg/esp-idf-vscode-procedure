@@ -3,6 +3,6 @@
 # project subdirectory.
 #
 
-PROJECT_NAME := template
+PROJECT_NAME := esp-idf-vscode-procedure
 
 include $(IDF_PATH)/make/project.mk
